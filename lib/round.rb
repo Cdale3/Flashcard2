@@ -44,7 +44,6 @@ class Round
 
     puts Messages.new.game_over
     puts "You got #{number_correct} correct guesses out of #{deck.count} for a score of #{percent_correct}%."
-
-
   end
+
 end

@@ -17,6 +17,6 @@ attr_reader :user_guess, :card, :total_correct
 
     def feedback
       return "Correct!" if correct? == true
-      return "Incorrect!" if correct? != true
+      return "Incorrect!" if correct? == false
     end
 end
