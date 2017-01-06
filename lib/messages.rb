@@ -19,4 +19,8 @@ class Messages
   def card_4_message
     "This is card number 4 out of 4."
   end
+
+  def game_over
+    puts "**G**A**M**E**O**V**E**R**"
+  end
 end
