@@ -4,22 +4,7 @@ class Messages
 -------------------------------------------------"
   end
 
-  def card_1_message
-    "This is card number 1 out of 4."
-  end
-
-  def card_2_message
-    "This is card number 2 out of 4."
-  end
-
-  def card_3_message
-    "This is card number 3 out of 4."
-  end
-
-  def card_4_message
-    "This is card number 4 out of 4."
-  end
-
+  
   def game_over
     puts "**G**A**M**E**O**V**E**R**"
   end
