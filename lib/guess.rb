@@ -7,7 +7,7 @@ attr_reader :user_guess, :card, :total_correct
   end
 
   def correct?
-    if user_guess.downcase == card.answer.downcase
+    if user_guess == card.answer
         @total_correct =+ 1
        return true
      else

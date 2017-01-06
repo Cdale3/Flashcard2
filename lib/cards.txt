@@ -1,4 +1,4 @@
-"What is the best sport in the world?", "Football"
-"What is the best city in the country?", "Denver"
-"What is a bar for nerds in Denver?  (Hint: it has one digit in the answer)", "1up"
-"What is the elevation of Denver(in feet)?", "5280"
+What is the best sport in the world?, Football
+What is the best city in the country?, Denver
+What is a bar for nerds in Denver?  (Hint: it has one digit in the answer), 1up
+What is the elevation of Denver(in feet)?, 5280

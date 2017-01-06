@@ -1,5 +1,6 @@
 require './lib/guess'
 require './lib/messages'
+require './lib/card_generator'
 require './lib/card'
 
 class Round
