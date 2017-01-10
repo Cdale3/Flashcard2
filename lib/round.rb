@@ -23,8 +23,7 @@ class Round
       if guess.correct?
         @number_correct += 1
       end
-
-    end
+  end
 
   def percent_correct
     (@number_correct.to_f/guesses.count) * 100
@@ -45,5 +44,4 @@ class Round
     puts Messages.new.game_over
     puts "You got #{number_correct} correct guesses out of #{deck.count} for a score of #{percent_correct}%."
   end
-
 end

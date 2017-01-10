@@ -4,7 +4,6 @@ class Messages
 -------------------------------------------------"
   end
 
-  
   def game_over
     puts "**G**A**M**E**O**V**E**R**"
   end

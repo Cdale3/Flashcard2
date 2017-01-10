@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/card'
 require './lib/deck'
-require 'pry'
+
 
 class DeckTest < MiniTest::Test
 
@@ -21,5 +21,4 @@ class DeckTest < MiniTest::Test
     flashcards = Deck.new([card_1, card_2, card_3])
     assert_equal 3, flashcards.count
   end
-
 end

@@ -4,7 +4,7 @@ require './lib/guess'
 require './lib/card'
 require './lib/round'
 require './lib/deck'
-require 'pry'
+
 
 class RoundTest < Minitest::Test
 
@@ -59,5 +59,4 @@ class RoundTest < Minitest::Test
     round.record_guess("2", card_2)
     assert_equal 50, round.percent_correct
   end
-
 end
